@@ -3,7 +3,7 @@
 
 # 🫁 **SmartScan – AI-Powered Chest X-Ray Disease Detection System**
 
-*A deep-learning powered platform for multi-disease medical imaging analysis, built with TensorFlow, FastAPI, Streamlit, and deployed on Render.*
+*A deep-learning powered platform for multi-disease medical imaging analysis, built with TensorFlow, FastAPI, Streamlit*
 
 ![HealthAI Banner](https://github.com/AKHIL-SAURABH/HealthAI-Project/blob/master/healthai.png?raw=true)
 
@@ -34,7 +34,7 @@
 
 ## 🚀 **Overview**
 
-**HealthAI** is an end-to-end medical imaging project that detects **multiple chest diseases** from **X-ray images** using a deep learning model trained on the **CheXpert dataset**.
+**SmartScan** is an end-to-end medical imaging project that detects **multiple chest diseases** from **X-ray images** using a deep learning model trained on the **CheXpert dataset**.
 It features:
 
 * 📸 **Multi-Disease Chest X-Ray Classification** (supports 5+ pathologies)
@@ -108,7 +108,7 @@ Backend deployed on **Render**, accessible publicly.
 ## 📁 **Project Structure**
 
 ```
-HealthAI-Project/
+smart_scan_project/
 │
 ├── backend/
 │   ├── main.py
@@ -127,22 +127,6 @@ HealthAI-Project/
 ├── .gitignore
 ├── README.md
 └── LICENSE
-```
-
----
-
-## 🌍 **Live API (Render Deployment)**
-
-Base URL:
-
-```
-https://healthai-backend-oj25.onrender.com/
-```
-
-Swagger Docs:
-
-```
-https://healthai-backend-oj25.onrender.com/docs
 ```
 
 ---
@@ -182,7 +166,6 @@ graph TD
     C --> D[FastAPI Backend]
     D --> E[Streamlit Dashboard]
     D --> F[Mobile App - Future]
-    D --> G[Cloud Deployment - Render]
 
 ```
 
@@ -193,8 +176,8 @@ graph TD
 ### 1️⃣ Create environment
 
 ```bash
-conda create -n healthai python=3.10
-conda activate healthai
+conda create -n smartscan python=3.11
+conda activate smartscan
 ```
 
 ### 2️⃣ Install backend dependencies
@@ -288,7 +271,6 @@ This project demonstrates:
 * Deployment experience
 * Professional-grade UI
 
-A perfect portfolio project for **Machine Learning**, **AI Engineering**, and **Healthcare AI** roles.
 
 ---
 
